@@ -1,0 +1,70 @@
+.body {
+  min-height: 2000px;
+}
+
+.jumbotron {
+  background: url(img/banner-horror.png) no-repeat center center;
+  background-size: cover;
+  padding-top: 25%;
+  padding-bottom: 20%;
+}
+
+.navbar {
+  background-color: #700202;
+}
+
+.navbar .navbar-brand {
+  color: aliceblue;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.slider {
+  background-color: #111111;
+}
+
+.video-src {
+  background-color: #460000;
+}
+
+.video-src video {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.video-src h2 {
+  color: beige;
+}
+
+.row {
+  transition-property: none;
+  contain: content;
+  background-size: cover;
+  scale: scale-down;
+}
+
+.end-text {
+  background-color: #0f0f0f;
+  text-align: center;
+  padding: 20px;
+}
+
+.end-text p {
+  color: #c2c2c2;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    min-height: 120vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    min-height: 100vh;
+  }
+}
